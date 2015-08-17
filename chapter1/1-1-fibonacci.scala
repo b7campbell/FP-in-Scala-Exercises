@@ -27,5 +27,5 @@ def report_fibonacci(n: Int) =
 
 /* Driver: Results should match standard Fibonacci sequence */
 0 to max foreach { n => print(report_fibonacci(n)) }
-println("0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144")
+println("0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144")  /* comparison to ensure correctness */
 
