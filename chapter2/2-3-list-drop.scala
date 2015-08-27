@@ -3,10 +3,8 @@
     Ben Campbell
     August 27th 2015
 
-    EXERCISE 2: Implement the function tail for "removing" the first
-    element of a List. Notice the function takes constant time. What
-    are different choices you could make in your implementation if the
-    List is Nil? We will return to this question in the next chapter.
+    EXERCISE 3: Generalize tail to the function drop, which
+    removes the first n elements from a list.
 */
 
 sealed trait List[+A]
